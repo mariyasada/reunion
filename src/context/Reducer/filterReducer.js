@@ -11,7 +11,9 @@ export const filterReducer=(state,action)=>{
 
         case "SEARCH_BY_FORM":
             return {...state,searchByForm:{...state.searchByForm,...action.payload}}  
-           
+         
+         case "CLEAR_FILTERS":
+            return {sortBy:"", favorites:[], searchByQuery:""}   
        default:
             return state;
     }

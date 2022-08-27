@@ -8,11 +8,18 @@ import { useFilters } from "../../context/filterContext";
 
 export const Navbar = () => {
   const navigate = useNavigate();
-  const { state } = useFilters();
+  const { state, dispatch } = useFilters();
+
   return (
     <nav className="Header-container flex-center space-between">
       <div className="heading-in-note-page">
-        <span className="name-of-app flex-center">
+        <span
+          className="name-of-app flex-center"
+          onClick={() => {
+            dispatch({ type: "CLEAR_FILTERS" });
+            navigate("/");
+          }}
+        >
           <MdRealEstateAgent />
           Findhome
         </span>

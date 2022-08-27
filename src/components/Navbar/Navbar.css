@@ -33,6 +33,7 @@
 
 .name-of-app {
   color: var(--primary-dark);
+  cursor: pointer;
 }
 .color-black {
   color: black;
