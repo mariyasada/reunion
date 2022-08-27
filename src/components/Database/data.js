@@ -1,7 +1,7 @@
-import {v4 as uuid, v4} from "uuid";
+import {v4 as uuid} from "uuid";
 export const data=[
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"single-family-home",
         price:500,
         bed:4,
@@ -16,7 +16,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"single-family-home",
         price:1500,
         bed:4,
@@ -31,7 +31,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1503594384566-461fe158e797?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:8000,
         bed:4,
@@ -46,7 +46,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:5500,
         bed:4,
@@ -61,7 +61,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:8000,
         bed:4,
@@ -69,14 +69,14 @@ export const data=[
         bath:2,
         place:"california",
         name:"Palm Harbor",
-        isForRent:true,
+        isForRent:false,
         isPopular:false,
         isForSell:true,
         movedInMonth:"09",
         image:"https://images.unsplash.com/photo-1507204135820-e462b349179f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFtaWx5JTIwcmVzaWRlbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:8800,
         bed:4,
@@ -86,12 +86,12 @@ export const data=[
         name:"Palm Harbor",
         isForRent:true,
         isPopular:false,
-        isForSell:true,
+        isForSell:false,
         movedInMonth:"09",
         image:"https://images.unsplash.com/photo-1507204135820-e462b349179f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFtaWx5JTIwcmVzaWRlbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:80000,
         bed:4,
@@ -101,12 +101,12 @@ export const data=[
         name:"Palm Harbor",
         isForRent:true,
         isPopular:false,
-        isForSell:true,
+        isForSell:false,
         movedInMonth:"10",
         image:"https://images.unsplash.com/photo-1507204135820-e462b349179f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFtaWx5JTIwcmVzaWRlbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:1800,
         bed:2,
@@ -115,13 +115,13 @@ export const data=[
         place:"california",
         name:"Palm Harbor",
         isForRent:true,
-        isPopular:false,
-        isForSell:true,
+        isPopular:true,
+        isForSell:false,
         movedInMonth:"08",
         image:"https://images.unsplash.com/photo-1507204135820-e462b349179f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFtaWx5JTIwcmVzaWRlbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:39000,
         bed:7,
@@ -136,7 +136,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:9000,
         bed:5,
@@ -151,7 +151,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1632152683081-28923830268d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:500,
         bed:3,
@@ -166,7 +166,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:7000,
         bed:5,
@@ -181,7 +181,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1459535653751-d571815e906b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"single-family-home",
         price:700,
         bed:5,
@@ -196,7 +196,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:70000,
         bed:5,
@@ -211,7 +211,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"single-family-home",
         price:7000,
         bed:5,
@@ -226,7 +226,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:1000,
         bed:4,
@@ -241,7 +241,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAzfHxob21lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:8000,
         bed:4,
@@ -256,7 +256,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:50000,
         bed:8,
@@ -271,7 +271,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:45000,
         bed:6,
@@ -286,7 +286,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"single-family-home",
         price:5000,
         bed:4,
@@ -301,7 +301,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
     {
-        id:v4(),
+        id:uuid(),
         propertyType:"single-family-home",
         price:5000,
         bed:4,
@@ -316,7 +316,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"single-family-home",
         price:2000,
         bed:2,
@@ -330,7 +330,7 @@ export const data=[
          movedInMonth:"08",
         image:"https://images.unsplash.com/photo-1507204135820-e462b349179f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFtaWx5JTIwcmVzaWRlbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
-{       id:v4(),
+{       id:uuid(),
         propertyType:"single-family-home",
         price:8000,
         bed:5,
@@ -344,7 +344,7 @@ export const data=[
          movedInMonth:"09",
         image:"https://images.unsplash.com/photo-1567428485548-c499e4931c10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhbWlseSUyMHJlc2lkZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 },
-{        id:v4(),
+{        id:uuid(),
         propertyType:"Houses",
         price:500,
         bed:2,
@@ -358,7 +358,7 @@ export const data=[
          movedInMonth:"09",
         image:"https://images.unsplash.com/photo-1508330570239-ce7cabceee22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZhbWlseSUyMHJlc2lkZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 },
-{       id:v4(),
+{       id:uuid(),
         propertyType:"Houses",
         price:7500,
         bed:3,
@@ -372,7 +372,7 @@ export const data=[
          movedInMonth:"09",
         image:"https://images.unsplash.com/photo-1551524164-687a55dd1126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZhbWlseSUyMHJlc2lkZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 },
-{        id:v4(),
+{        id:uuid(),
         propertyType:"Houses",
         price:5000,
         bed:2,
@@ -386,7 +386,7 @@ export const data=[
          movedInMonth:"10",
         image:"https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZhbWlseSUyMHJlc2lkZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 },
-{        id:v4(),
+{        id:uuid(),
         propertyType:"Houses",
         price:5000,
         bed:5,
@@ -400,7 +400,7 @@ export const data=[
          movedInMonth:"10",
         image:"https://images.unsplash.com/photo-1584738766473-61c083514bf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZhbWlseSUyMHJlc2lkZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 },
-{        id:v4(),
+{        id:uuid(),
         propertyType:"Bunglow",
         price:29000,
         bed:5,
@@ -414,7 +414,7 @@ export const data=[
          movedInMonth:"07",
         image:"https://images.unsplash.com/photo-1571168538867-ad36fe110cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVuZ2Fsb3d8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
-{        id:v4(),
+{        id:uuid(),
         propertyType:"Bunglow",
         price:10000,
         bed:5,
@@ -429,7 +429,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1632152683081-28923830268d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:1700,
         bed:4,
@@ -444,7 +444,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:1000,
         bed:2,
@@ -459,7 +459,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1507204135820-e462b349179f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFtaWx5JTIwcmVzaWRlbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:4000,
         bed:2,
@@ -474,7 +474,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1507204135820-e462b349179f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFtaWx5JTIwcmVzaWRlbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:1900,
         bed:4,
@@ -489,7 +489,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1605146769289-440113cc3d00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ2fHxob21lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:1300,
         bed:4,
@@ -504,7 +504,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:7000,
         bed:4,
@@ -519,7 +519,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1522050212171-61b01dd24579?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM4fHxob21lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:9000,
         bed:4,
@@ -534,7 +534,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMxfHxob21lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:20000,
         bed:4,
@@ -549,7 +549,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE5fHxob21lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Houses",
         price:80000,
         bed:4,
@@ -564,7 +564,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1459535653751-d571815e906b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:800,
         bed:4,
@@ -579,7 +579,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:6600,
         bed:4,
@@ -594,7 +594,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAzfHxob21lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:20000,
         bed:4,
@@ -609,7 +609,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:50000,
         bed:7,
@@ -624,7 +624,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:2000,
         bed:4,
@@ -639,7 +639,7 @@ export const data=[
         image:"https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
 },
 {
-        id:v4(),
+        id:uuid(),
         propertyType:"Bunglow",
         price:20000,
         bed:4,

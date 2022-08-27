@@ -3,9 +3,10 @@ import "./card.css";
 import { BiBed, BiArea } from "react-icons/bi";
 import { FaBath, FaRegHeart } from "react-icons/fa";
 import { useFilters } from "../../context/filterContext";
+import toast from "react-hot-toast";
 
 export const HomeCard = ({ item }) => {
-  const { state, dispatch } = useFilters();
+  const { dispatch } = useFilters();
   return (
     <div className="card flex-center flex-column ">
       <div className="card-image-lg ">
@@ -34,7 +35,10 @@ export const HomeCard = ({ item }) => {
       <div className="btn-div flex-center">
         <button
           className="favorite-btn flex-center"
-          onClick={() => dispatch({ type: "ADD_TO_FAVORITE", payload: item })}
+          onClick={() => {
+            dispatch({ type: "ADD_TO_FAVORITE", payload: item });
+            toast("added to favorites");
+          }}
         >
           <FaRegHeart />
         </button>

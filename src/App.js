@@ -1,7 +1,7 @@
 import './App.css';
 import { Navbar } from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import { SellingPage } from './pages/Home/sellPage/Sell';
 import Favorite from './pages/favorites/Favorite';
 import { Toaster } from "react-hot-toast";
