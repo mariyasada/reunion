@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { Navbar } from './components/Navbar/Navbar';
+import Home from './pages/Home/Home';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { SellingPage } from './pages/Home/sellPage/Sell';
+import Favorite from './pages/favorites/Favorite';
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/sell" element={<SellingPage/>}/>
+        <Route path="/favorite" element={<Favorite/>}/>
+      </Routes>
+      <Toaster
+        position="top-right"
+        toastOptions={{ className: "toast-display", duration: 3000 }}
+      /> 
+     
     </div>
   );
 }

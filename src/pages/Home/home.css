@@ -1,0 +1,81 @@
+.banner {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.banner-image {
+  height: 30rem;
+  width: 100%;
+}
+.searchbar-container {
+  background-color: white;
+  width: 52vw;
+  padding: 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: 37%;
+  left: 23%;
+}
+.input-search {
+  padding: 9px;
+  outline: none;
+  border: none;
+  width: 90%;
+  font-size: 1rem;
+}
+.tagline {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search-div {
+  width: 55%;
+  position: absolute;
+  top: 22%;
+  left: 23%;
+  justify-content: space-between;
+}
+
+.input-searchbar {
+  border: none;
+  outline: none;
+  width: 20%;
+  padding: 7px;
+  margin-left: 1rem;
+}
+.btn-search {
+  width: fit-content;
+  padding: 9px;
+  outline: none;
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.sm-div {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputs {
+  border: none;
+  outline: none;
+  padding: 4px;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 4px;
+  margin-left: -2px;
+}
+.all-inputs-container {
+  width: 100%;
+  height: max-content;
+  padding: 1.5rem;
+  align-items: flex-start;
+  text-align: start;
+  gap: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}

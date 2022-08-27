@@ -1,0 +1,53 @@
+.Header-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 19;
+}
+.heading-in-note-page {
+  font-size: 2.1rem;
+  padding: 10px;
+  margin-left: 0;
+}
+.align-start {
+  align-items: flex-start;
+}
+.favorite {
+  font-size: 1.73rem;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.badge {
+  height: 1rem;
+  position: absolute;
+  width: 1rem;
+  background-color: var(--primary-dark);
+  border-radius: 50%;
+  top: 1.4rem;
+  right: 14.4rem;
+  color: white;
+}
+
+.name-of-app {
+  color: var(--primary-dark);
+}
+.color-black {
+  color: black;
+}
+.login-btn {
+  color: var(--primary-dark);
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+}
+.signup-btn {
+  color: white;
+  background-color: var(--primary-dark);
+  border: 1px solid var(--primary-dark);
+}
+
+.list-of-filters {
+  width: fit-content;
+}
