@@ -33,9 +33,16 @@ const Home = () => {
         <SearchBar />
       </div>
       <div className="grid-3">
-        {filteredData.map((item) => {
-          return <HomeCard key={item.id} item={item} />;
-        })}
+        {filteredData.length === 0 ? (
+          <h1 className="msg">
+            {" "}
+            Sorry we don't have any house as per your requirement
+          </h1>
+        ) : (
+          filteredData.map((item) => {
+            return <HomeCard key={item.id} item={item} />;
+          })
+        )}
       </div>
     </div>
   );

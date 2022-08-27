@@ -73,3 +73,6 @@ li {
 .row-gap {
   gap: 3rem;
 }
+.msg {
+  width: 70vw;
+}
